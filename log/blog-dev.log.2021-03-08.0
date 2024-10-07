@@ -1,0 +1,110 @@
+2021-03-08 21:51:19.921  INFO 87060 --- [restartedMain] com.stray.cat.CatApplication             : Starting CatApplication using Java 1.8.0_60 on DESKTOP-6DSC78P with PID 87060 (D:\待测试项目\打包项目\catnest\target\classes started by chen in D:\待测试项目\打包项目\catnest)
+2021-03-08 21:51:19.927  INFO 87060 --- [restartedMain] com.stray.cat.CatApplication             : No active profile set, falling back to default profiles: default
+2021-03-08 21:51:19.957  INFO 87060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-08 21:51:19.957  INFO 87060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-08 21:51:20.475  INFO 87060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-08 21:51:20.475  INFO 87060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 21:51:20.495  INFO 87060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2021-03-08 21:51:20.505  INFO 87060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-08 21:51:20.506  INFO 87060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-08 21:51:20.520  INFO 87060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-03-08 21:51:20.939  INFO 87060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2021-03-08 21:51:20.945  INFO 87060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-08 21:51:20.945  INFO 87060 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-08 21:51:21.017  INFO 87060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-08 21:51:21.017  INFO 87060 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1059 ms
+2021-03-08 21:51:21.178  INFO 87060 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-03-08 21:51:22.532  INFO 87060 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 21:51:22.560  INFO 87060 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-08 21:51:22.635  INFO 87060 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-08 21:51:22.704  INFO 87060 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-03-08 21:51:22.805  INFO 87060 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 21:51:22.812  INFO 87060 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 21:51:23.029  WARN 87060 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 21:51:23.101  INFO 87060 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 21:51:23.164  INFO 87060 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-08 21:51:23.532  INFO 87060 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-08 21:51:23.568  INFO 87060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2021-03-08 21:51:23.577  INFO 87060 --- [restartedMain] com.stray.cat.CatApplication             : Started CatApplication in 4.032 seconds (JVM running for 4.976)
+2021-03-08 21:51:38.626  INFO 87060 --- [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 21:51:38.626  INFO 87060 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-08 21:51:38.627  INFO 87060 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-08 21:54:45.693  WARN 87060 --- [http-nio-8089-exec-7] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://47.108.145.65:3306/catnest?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=UTC, version : 1.2.3, lastPacketReceivedIdleMillis : 185593
+2021-03-08 21:56:19.915  INFO 87060 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-03-08 21:56:20.036  INFO 87060 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-03-08 21:56:20.102  INFO 87060 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 21:56:20.103  INFO 87060 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 21:56:20.105  INFO 87060 --- [RMI TCP Connection(2)-127.0.0.1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-03-08 21:56:20.107  INFO 87060 --- [RMI TCP Connection(2)-127.0.0.1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-03-08 21:56:56.193  INFO 93160 --- [restartedMain] com.stray.cat.CatApplication             : Starting CatApplication using Java 1.8.0_60 on DESKTOP-6DSC78P with PID 93160 (D:\待测试项目\打包项目\catnest\target\classes started by chen in D:\待测试项目\打包项目\catnest)
+2021-03-08 21:56:56.195  INFO 93160 --- [restartedMain] com.stray.cat.CatApplication             : No active profile set, falling back to default profiles: default
+2021-03-08 21:56:56.223  INFO 93160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-08 21:56:56.224  INFO 93160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-08 21:56:56.731  INFO 93160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-08 21:56:56.732  INFO 93160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 21:56:56.752  INFO 93160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2021-03-08 21:56:56.762  INFO 93160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-08 21:56:56.763  INFO 93160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-08 21:56:56.776  INFO 93160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-03-08 21:56:57.190  INFO 93160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2021-03-08 21:56:57.196  INFO 93160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-08 21:56:57.196  INFO 93160 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-08 21:56:57.264  INFO 93160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-08 21:56:57.264  INFO 93160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1040 ms
+2021-03-08 21:56:57.416  INFO 93160 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-03-08 21:56:57.590  INFO 93160 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 21:56:57.618  INFO 93160 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-08 21:56:57.691  INFO 93160 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-08 21:56:57.759  INFO 93160 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-03-08 21:56:57.860  INFO 93160 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 21:56:57.867  INFO 93160 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 21:56:58.086  WARN 93160 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 21:56:58.165  INFO 93160 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 21:56:58.226  INFO 93160 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-08 21:56:58.591  INFO 93160 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-08 21:56:58.630  INFO 93160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2021-03-08 21:56:58.639  INFO 93160 --- [restartedMain] com.stray.cat.CatApplication             : Started CatApplication in 2.752 seconds (JVM running for 3.416)
+2021-03-08 21:57:34.579  INFO 93160 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-03-08 21:57:34.753  INFO 93160 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-03-08 21:57:34.803  INFO 93160 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 21:57:34.804  INFO 93160 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 21:57:34.807  INFO 93160 --- [RMI TCP Connection(2)-127.0.0.1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-03-08 21:57:34.810  INFO 93160 --- [RMI TCP Connection(2)-127.0.0.1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-03-08 21:57:48.542  INFO 89756 --- [restartedMain] com.stray.cat.CatApplication             : Starting CatApplication using Java 1.8.0_60 on DESKTOP-6DSC78P with PID 89756 (D:\待测试项目\打包项目\catnest\target\classes started by chen in D:\待测试项目\打包项目\catnest)
+2021-03-08 21:57:48.544  INFO 89756 --- [restartedMain] com.stray.cat.CatApplication             : No active profile set, falling back to default profiles: default
+2021-03-08 21:57:48.574  INFO 89756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-08 21:57:48.574  INFO 89756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-08 21:57:49.094  INFO 89756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-08 21:57:49.094  INFO 89756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 21:57:49.113  INFO 89756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2021-03-08 21:57:49.124  INFO 89756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-08 21:57:49.125  INFO 89756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-08 21:57:49.140  INFO 89756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-03-08 21:57:49.572  INFO 89756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2021-03-08 21:57:49.578  INFO 89756 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-08 21:57:49.579  INFO 89756 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-08 21:57:49.652  INFO 89756 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-08 21:57:49.652  INFO 89756 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1077 ms
+2021-03-08 21:57:49.820  INFO 89756 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-03-08 21:57:50.035  INFO 89756 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 21:57:50.067  INFO 89756 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-08 21:57:50.147  INFO 89756 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-08 21:57:50.219  INFO 89756 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-03-08 21:57:50.334  INFO 89756 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 21:57:50.342  INFO 89756 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 21:57:50.561  WARN 89756 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 21:57:50.635  INFO 89756 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 21:57:50.705  INFO 89756 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-08 21:57:51.108  INFO 89756 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-08 21:57:51.136  INFO 89756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2021-03-08 21:57:51.145  INFO 89756 --- [restartedMain] com.stray.cat.CatApplication             : Started CatApplication in 2.912 seconds (JVM running for 3.567)
+2021-03-08 21:58:44.622  INFO 89756 --- [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 21:58:44.622  INFO 89756 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-08 21:58:44.625  INFO 89756 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-08 22:02:46.420  WARN 89756 --- [http-nio-8089-exec-6] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/catnest?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=UTC, version : 1.2.3, lastPacketReceivedIdleMillis : 67428
+2021-03-08 22:02:46.421  WARN 89756 --- [http-nio-8089-exec-6] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/catnest?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=UTC, version : 1.2.3, lastPacketReceivedIdleMillis : 75060
+2021-03-08 22:04:10.806  WARN 89756 --- [http-nio-8089-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/catnest?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=UTC, version : 1.2.3, lastPacketReceivedIdleMillis : 84381
+2021-03-08 22:05:49.315  WARN 89756 --- [http-nio-8089-exec-5] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/catnest?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=UTC, version : 1.2.3, lastPacketReceivedIdleMillis : 63390
+2021-03-08 22:07:29.973  WARN 89756 --- [http-nio-8089-exec-8] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/catnest?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=UTC, version : 1.2.3, lastPacketReceivedIdleMillis : 79281
+2021-03-08 22:07:29.974  WARN 89756 --- [http-nio-8089-exec-8] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/catnest?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=UTC, version : 1.2.3, lastPacketReceivedIdleMillis : 79291
+2021-03-08 22:09:37.439  WARN 89756 --- [http-nio-8089-exec-7] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/catnest?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=UTC, version : 1.2.3, lastPacketReceivedIdleMillis : 81249
